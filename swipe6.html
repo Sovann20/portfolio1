@@ -1,0 +1,394 @@
+<head>
+
+<!-- Include meta tag to ensure proper rendering and touch zooming -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Include jQuery Mobile stylesheets -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+<!-- Include the jQuery library -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Include the jQuery Mobile library -->
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+<div data-role="page" id="IntroPage">
+        <div data-role="header" id = "pageHeader" style = "background-color: red">
+                   <div align="right"> <a href="#pageone" class="ui-btn">Go to Page One</a> </div>
+                          <h1 style = "color: white">Swipe6</h1>
+		</div>
+    
+    
+    <div data-role="main" class="ui-content" style = "background-color: black">
+        <h2 style = "color: white">Latest Facts:</h2>
+        <ul data-role="listview" data-inset="true">    
+              <li><a href="#pageone" style = "color: white; background-color: red">Random Fact</a></li>
+			  <br>
+              <li><a href="#factForm" style = "color: white; background-color: red">Add 10 Facts</a></li>
+       </ul>
+    </div>
+    
+  <div data-role="footer" data-theme="a" style = "background-color: red">
+      <h1></h1>
+  </div>  
+    
+</div> 
+
+
+
+
+
+<div data-role="page" id="pageone">
+    <div data-role= "header" class = "ui-content" id = "pageHeader" style = "background-color: red">
+   
+               <a herf = "#IntroPage" class = "ui-btn" data-rel = "back" >Back</a>
+        <a href="#pagetwo" class="ui-btn" >Next </a>
+     <h1>1</h1>
+	</div>  
+    
+    
+    <div data-role="main" class="ui-content" style = "background-color: black">
+        <p class = fact1 style = "color: white; text-align:center;">Here is a fact</p> 
+    
+        </div>
+    
+    <div data-role = "footer" class = "ui-content" style = "background-color: red">
+              
+    </div>
+
+
+
+</div>
+     
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+<div data-role="page" id="pagetwo">
+    <div data-role= "header" class = "ui-content" style = "background-color: red">
+        <a herf = "#pageone" class = "ui-btn" data-rel = "back" >Back</a>
+        <a href="#pagethree" class="ui-btn" >Next</a>
+         <h1>2</h1>
+	</div>  
+    
+    
+    <div data-role="main" class="ui-content" style = "background-color: black">
+       <p class = fact1 style = "color: white; text-align:center;">Here is a fact</p>  
+   </div>
+    
+    <div data-role = "footer" class = "ui-content" style = "background-color: red">
+    </div>    
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="pagethree">
+    
+ <div data-role= "header" class = "ui-content" style = "background-color: red">
+   
+               <a herf = "#pagetwo" class = "ui-btn" data-rel = "back" >Back</a>
+        <a href="#pagefour" class="ui-btn" >Next</a>
+     <h1>3</h1>
+ </div>  
+    
+    
+    <div data-role="main" class="ui-content" style = "background-color: black">
+        <p class = fact1 style = "color: white; text-align:center;">Here is a fact</p>     
+    </div>
+    
+    <div data-role = "footer" class = "ui-content" style = "background-color: red">
+    </div>    
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="pagefour">
+    
+ <div data-role= "header" class = "ui-content" style = "background-color: red">
+   
+               <a herf = "#pagethree" class = "ui-btn" data-rel = "back" >Back</a>
+        <a href="#pagefive" class="ui-btn" >Next</a>
+     <h1>4</h1>
+ </div>  
+    
+    
+    <div data-role="main" class="ui-content" style = "background-color: black">
+        <p class = fact1 style = "color: white; text-align:center;">Here is a fact</p>  
+    </div>
+    
+    <div data-role = "footer" class = "ui-content" style = "background-color: red">
+    </div>    
+    
+</div>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="pagefive">
+    
+ <div data-role= "header" class = "ui-content" style = "background-color: red">
+   
+               <a herf = "#pagefour" class = "ui-btn" data-rel = "back" >Back</a>
+        <a href="#pagesix" class="ui-btn" >Next</a>
+     <h1>5</h1>
+ </div>  
+    
+    
+    <div data-role="main" class="ui-content" style = "background-color: black">
+        <p class = fact1 style = "color: white; text-align:center;">Here is a fact</p>   
+    </div>
+    
+    <div data-role = "footer" class = "ui-content" style = "background-color: red">
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="pagesix">
+    <div data-role= "header" class = "ui-content" style = "background-color: red">
+   
+               <a herf = "#pagefive" class = "ui-btn" data-rel = "back" >Back</a>
+        <a href="#pagePop" class="ui-btn" >Next</a>
+     <h1>6</h1>
+	</div>  
+    
+    
+    <div data-role="main" class="ui-content" style = "background-color: black">
+        <p class = fact1 style = "color: white; text-align:center;">Here is a fact</p>  
+    
+        </div>
+    
+    <div data-role = "footer" class = "ui-content" style = "background-color: red">
+              
+    </div>
+
+
+
+</div>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="pageAd">
+     <div data-role= "header" class = "ui-content" style = "background-color: red">
+          <a herf = "#pagesix" class = "ui-btn" data-rel = "back">Back</a>
+     <a href = "#IntroPage" class = "ui-btn">More Facts!</a>
+         <h1>7<h1>
+ </div>  
+    
+    
+    <div data-role="main" class="ui-content" style = "background-color: black">
+        <p class = fact7></p>   
+    <h2>List Icons:</h2>
+          <ul data-role="listview" data-inset="true">    
+      <li><a href="#pagePop" class = "ui-btn">Fun FACT</a></li>
+          </ul>
+     </div>
+
+   
+    <div data-role = "footer" class = "ui-content" style = "background-color: red">
+    </div>          
+             
+  </div>
+     
+     
+   
+ 
+ 
+ 
+ 
+ 
+ 
+     
+         
+     
+       <div data-role = "page" data-dialog = "true" id="pagePop">
+          <div data-role="header" class = "ui-content" style = "background-color: red">
+              <h1>MORE FACTS</h1> 
+              <a href="#IntroPage">Home</a>
+         </div>
+         
+         <div data-role="main" class = "ui-content" style = "background-color: black">
+            <ul data-role="listview" data-inset="true">    
+      <li><a href= "#pageone" onclick = "randomizeFact()" style = "background-color: red; color: white;">More Facts</a></li>
+      <li><a href="#factForm" style = "background-color: red; color: white;">Make a 10-fact Facts</a></li>
+    </ul>
+             
+         </div>
+         <div data-role = "footer" class = "ui-content" style = "background-color: red">
+             
+             
+         </div>
+     </div>    
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+     
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+ <div data-role="page" id="factForm">
+    
+ <div data-role= "header" class = "ui-content" style = "background-color: red">
+     <a href = "#IntroPage" class = "ui-btn">Home</a>
+     <h1 style = "color: white">Fact Form</h1>
+ </div>  
+    
+    
+    <div data-role="main" class="ui-content" style = "background-color: black">
+        <form action = createFile() id="form1" style = "color: white">
+            Title:  
+            <br>
+			<input type = "text" name = "title" value="" class = "postFact" id = "inputTitle">
+            Fact 1:
+            <br>
+            <input type = "text" name = "fact1" value="" class = "postFact" id = "input1">   
+            Fact 2: 
+            <br>
+            <input type = "text" name = "fact2" value="" class = "postFact" id = "input2"> 
+            Fact 3: 
+            <br>
+            <input type = "text" name = "fact3" value="" class = "postFact" id = "input3">   
+            Fact 4: 
+            <br>
+            <input type = "text" name = "" value="" class = "postFact" id = "input4"> 
+            Fact 5: 
+            <br>
+            <input type = "text" name = "fact5" value="" class = "postFact" id = "input5">   
+            Fact 6: 
+            <br>
+            <input type = "text" name = "fact6" value="" class = "postFact" id = "input6"> 
+            <br>
+                     
+            <input type = "submit" value = "submit" onclick = createFile()>
+        </form>
+    </div>
+         
+         
+         <div data-role = "footer" class = "ui-content" style = "background-color: red">
+             produced by cyWare Technologies 
+         </div>
+</div>
+
+</body>
