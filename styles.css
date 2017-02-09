@@ -1,9 +1,77 @@
-#pageHeader
-{
-	background-color: red;
+body{
+	font-family: Geneva;
+}
+#IntroPage{
+	background-image: url("images/Background 5.jpg");
+}
+.about {
+	padding-top: 20%;
+	text-align: center;
 }
 
-h1{
-	text-color: white;
+.about h1{
+	
 }
 
+.head{
+	padding: 15px;
+	font-size: 1.5em;
+	color: black;
+	margin: 1em;
+}
+
+.head h1{
+	border: groove;
+	opacity: .8;
+	background: white;
+	text-align: center;
+	width: 4.5em;
+	margin: 0 auto;
+
+}
+.facts{
+
+
+}
+.btn {
+	padding-top: 50px ;
+	text-align: center;
+	max-width: 30%;
+	min-width: 250px;
+	margin: 0 auto;
+}
+
+.content{
+	padding-bottom: 50px;
+	padding-bottom: 30px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+.footer{
+	opacity: .8;
+	padding: .25em;
+	background-color: gainsboro;
+	text-align: center;
+}
+
+.list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+}
+
+.bullet{
+	display: block;
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.bullet:hover {
+	background-color: darkgrey;
+	color: black;
+}
