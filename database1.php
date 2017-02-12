@@ -1,9 +1,7 @@
-
-
 <?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
+$servername = " db319team131";
+$username = "dbu319team131";
+$password = "Y2YwYzBjMTI2";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
@@ -34,7 +32,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 //creates table
-if ($conn->query($sql) === TRUE) {
+if ($conn->query($sql) === TRUE) { 
     echo "Table MyGuests created successfully";
 } else {
     echo "Error creating table: " . $conn->error;

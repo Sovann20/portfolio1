@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
+$servername = " db319team131";
+$username = "dbu319team131";
+$password = "Y2YwYzBjMTI2";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
@@ -18,7 +18,7 @@ $first = 0;
 $last = (int) "SELECT LAST(id) FROM Customers;";
 $loc = mt_random($first, $last)
 
-$sql = "SELECT title, fact1, fact2, fact3, fact4, fact5, fact6 FROM articalDB WHERE id = $loc";
+$sql = "SELECT title, fact1, fact2, fact3, fact4, fact5, fact6 FROM Articles WHERE id = $loc";
 //$result = $conn->query($sql);
 $result=mysqli_query($con,$sql)
 
