@@ -1,16 +1,14 @@
-
-
 <?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
+$servername = " db319team131";
+$username = "dbu319team131";
+$password = "Y2YwYzBjMTI2";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-} 
+}
 
 // sql to create table
 $sql2 = "CREATE TABLE Articles (
